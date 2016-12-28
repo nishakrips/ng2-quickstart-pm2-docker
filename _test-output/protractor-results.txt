@@ -1,0 +1,7 @@
+Protractor results for: 12/27/2016, 12:39:04 PM
+
+AppDir:./
+  Suite: QuickStart E2E Tests -- failed
+    failed - should display: Hello Angular
+      message: Expected 'Hello Rules Editor App Angular2' to equal 'Hello Angular'.
+
