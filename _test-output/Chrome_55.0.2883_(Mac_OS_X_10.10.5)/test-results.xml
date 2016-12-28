@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 55.0.2883 (Mac OS X 10.10.5)" package="" timestamp="2016-12-27T22:35:05" id="0" hostname="admins-MacBook-Pro.local" tests="2" errors="0" failures="0" time="0.117">
+<testsuite name="Chrome 55.0.2883 (Mac OS X 10.10.5)" package="" timestamp="2016-12-28T21:36:56" id="0" hostname="admins-MacBook-Pro.local" tests="2" errors="0" failures="0" time="0.143">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"/>
   </properties>
-  <testcase name="AppComponent should create component" time="0.08" classname="Chrome_55_0_2883_(Mac_OS_X_10_10_5).AppComponent"/>
-  <testcase name="AppComponent should have expected &lt;h1> text" time="0.037" classname="Chrome_55_0_2883_(Mac_OS_X_10_10_5).AppComponent"/>
+  <testcase name="AppComponent should create component" time="0.101" classname="Chrome_55_0_2883_(Mac_OS_X_10_10_5).AppComponent"/>
+  <testcase name="AppComponent should have expected &lt;h1> text" time="0.042" classname="Chrome_55_0_2883_(Mac_OS_X_10_10_5).AppComponent"/>
   <system-out>
     <![CDATA[
 ]]>
