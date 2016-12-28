@@ -27,10 +27,8 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 
 before_script:
-  - npm run webdriver:update
-  - npm install -g karma
   - npm install
-
+  - npm run webdriver:update
 
 script:
   - npm run lint
