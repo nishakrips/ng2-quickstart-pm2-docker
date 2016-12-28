@@ -26,6 +26,12 @@ before_install:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
 
+before_script:
+  - npm run webdriver:update
+  - npm install -g karma
+  - npm install
+
+
 script:
   - npm run lint
   - npm run test-once
