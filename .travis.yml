@@ -27,9 +27,9 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 
 before_script:
+  - npm install -g webdriver-manager
   - npm install -g angular-cli
   - npm install -g karma
-  - npm install webdriver-manager
   - npm install
 
 install:
