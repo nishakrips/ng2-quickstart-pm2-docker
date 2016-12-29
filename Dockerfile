@@ -18,4 +18,4 @@ COPY . /quickstart
 RUN chown -R nodejs:nodejs /quickstart
 USER nodejs
 
-CMD npm start
+CMD npm run dev
