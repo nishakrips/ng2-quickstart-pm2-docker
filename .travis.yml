@@ -32,4 +32,19 @@ before_script:
 script:
   - npm run lint
   - npm run test-once
+  -docker pull nishakrips/ng2-quickstart-pm2-docker
+  -curl --data build=true -X POST https://registry.hub.docker.com/u/nishakrips/ng2-quickstart-pm2-docker/trigger/d5b21d3f-bbc1-428a-8146-d5d61e04f35b/
+
+services:
+  - docker
+
+deploy:
+  - provider: releases # Uploads to github
+    api_key:
+      secure:  # See Travis CI documentation
+    file: created.AppImage
+    skip_cleanup: true
+    on: # Put here conditions for deployment.
+      tags: true # This condition will only deploy on tagged commits.
+
 
