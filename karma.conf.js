@@ -33,7 +33,7 @@ module.exports = function(config) {
     customLaunchers: {
       // From the CLI. Not used here but interesting
       // chrome setup for travis CI using chromium
-      Chrome_travis_ci: {
+      ChromeNoSandbox: {
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
@@ -100,7 +100,7 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+    browsers: ['ChromeNoSandbox'],
     singleRun: true,
     junitReporter :{
       outputDir:'_test-output',
