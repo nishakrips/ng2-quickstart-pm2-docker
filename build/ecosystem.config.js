@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name      : "RulesEditorApp",
+      name      : "Ng2ExpressPm2App",
       script    : "index.js",
       watch     : true,
       env_local: {
